@@ -1,0 +1,354 @@
+body {
+    background-color: #fdfdfd;
+}
+
+/*----------NAVBAR---------*/
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 1px solid transparent;
+    overflow-x: hidden;
+}
+
+.navbar-nav li a {
+    padding: 20px 25px 15px 25px;
+    color: transparent;
+}
+
+
+.language {
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 44px;
+}
+
+.language:hover {
+    color: #564F6F!important;
+    text-decoration: none;
+}
+
+a {
+    background-color: #E4E4E4;
+    color: #888888;
+    font-size: 1.12em;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #564F6F;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+@media (max-width: 5000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+/*----------JUMBOTRON----------*/
+
+#landing-view {
+    background-attachment: fixed;
+    background-image: url('images/Pharmaceutical.gif');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.top {
+    padding-left: 12px;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30%;
+    font-size: 6.3em;
+    color: #fff;
+}
+
+.jumbotron p {
+    font-size: 2.5em;
+}
+
+/*------------ABOUT----------*/
+
+.about-row {
+    padding-bottom: 10%;
+    font-size: 1.75em;
+    line-height: 2;
+}
+
+h2 {
+    margin-left: 15px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.about-row .about-p {
+    font-size: 0.8em;
+}
+
+/*------------WORK----------*/
+
+#work {
+    background-attachment: fixed;
+    background-image: url('images/Pharma2.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.card-body .row {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.project-cards {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col-xs-6 {
+    align-items: center;
+}
+
+.card {
+    background-color: #fdfdfd;
+    border-radius: 15%;
+    width: 18em;
+    height: 18em;
+    top: 50%;
+    left: 50%;
+    margin: 15% auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.9;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.card-title {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.card-body .card-text {
+    font-size: 1.2em;
+}
+
+
+
+.vial-icon {
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 36px;
+    width: 54px;
+    height: 54px;
+    line-height: 14px;
+}
+
+.capsule-icon {
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 36px;
+    width: 54px;
+    height: 54px;
+    line-height: 14px;
+}
+
+.card-body i:hover {
+    color: #564F6F;
+}
+
+
+/*--------SKILLS-----------*/
+
+.skills {
+    position: relative;
+    top: 12%;
+    padding-bottom: 96px;
+}
+
+@media (min-width: 768px) {
+    .skills-inner {
+        width: 738px;
+    }
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+    
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+.progress-bar {
+    background-color: #a2a2a2;
+}
+
+
+
+
+
+
+/*-----------FOOTER----------*/
+
+footer {
+    border-color: transparent;
+    text-align: center;
+}
+
+.foot {
+    margin-bottom: 20px;
+}
+
+a {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: transparent;
+}
+
+.alignment {
+    line-height: 2px;
+}
+
+i {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #C3C3C3;
+    color: #8F8F8F;
+    width: 41px;
+    height: 41px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+
+}
+
+
+
+.foot i:hover {
+    color: #564F6F;
+}
+
+/*-----------MEDIA QUERIES----------*/
+
+@media (max-width: 768px) and (min-width: 375px) {
+    .scroll-work {
+        width: 80%;
+    }
+    .fa-chevron-down {
+        margin-top: 52vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .scroll {
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 992px) {
+    #about-me {
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    #skills {
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    .fa-chevron-down {
+        margin-top: 40vh;
+    }
+}
+
+
+
